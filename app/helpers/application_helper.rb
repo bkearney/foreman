@@ -86,8 +86,8 @@ module ApplicationHelper
   end
 
   def check_all_links(form_name=':checkbox')
-    link_to_function("Check all", "checkAll('#{form_name}', true)") +
-    link_to_function("Uncheck all", "checkAll('#{form_name}', false)")
+    link_to_function(_("Check all"), "checkAll('#{form_name}', true)") +
+    link_to_function(_("Uncheck all"), "checkAll('#{form_name}', false)")
   end
 
   # Return true if user is authorized for controller/action, otherwise false
