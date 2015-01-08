@@ -4,7 +4,7 @@ group :development do
   gem 'rubocop', '0.28.0'
 
   # for generating i18n files
-  gem 'gettext', '~> 3.1', :require => false
+  gem 'gettext', '>= 3.1.3', '< 4.0.0', :require => false
 
   # for generating foreign key migrations
   gem 'immigrant', '~> 0.1'

@@ -12,7 +12,7 @@ group :assets do
   gem 'gettext_i18n_rails_js', '~> 0.0', '>= 0.0.8'
   # unspecified dep of gettext_i18n_rails_js
   #   https://github.com/nubis/gettext_i18n_rails_js/pull/23
-  gem 'gettext', '~> 3.1', :require => false
+  gem 'gettext', '>= 3.1.3', '< 4.0.0', :require => false
   gem 'multi-select-rails', '~> 0.9'
   gem 'gridster-rails', '~> 0.1'
   gem 'jquery_pwstrength_bootstrap', '~> 1.2'
