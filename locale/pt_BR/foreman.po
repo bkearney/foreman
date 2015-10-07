@@ -70,7 +70,7 @@ msgstr "%s console não é suportado neste momento"
 
 msgid "%s core"
 msgid_plural "%s cores"
-msgstr[0] "núcleos"
+msgstr[0] "núcleo"
 msgstr[1] "%s núcleos"
 
 msgid "%s day ago"
@@ -83,14 +83,14 @@ msgstr "%s foi desassociada da VM"
 
 msgid "%s host"
 msgid_plural "%s hosts"
-msgstr[0] "%s host"
-msgstr[1] "%s hosts"
+msgstr[0] "%s servidor"
+msgstr[1] "%s servidores"
 
 msgid "%s is an unknown attribute"
 msgstr "%s é um atributo desconhecido"
 
 msgid "%s is not in environment"
-msgstr "%s não é um environment"
+msgstr "%s não é um ambiente"
 
 msgid "%s minute ago"
 msgid_plural "%s minutes ago"
@@ -103,7 +103,7 @@ msgstr[0] "%s mês atrás"
 msgstr[1] "%s meses atrás"
 
 msgid "%s selected hosts"
-msgstr "%s hosts selecinados"
+msgstr "%s servidores selecinados"
 
 msgid "%s week ago"
 msgid_plural "%s weeks ago"
@@ -123,8 +123,8 @@ msgstr "%{cores} Cores e %{memory} memória"
 
 msgid "%{count} host with no %{taxonomy_single} assigned"
 msgid_plural "%{count} hosts with no %{taxonomy_single} assigned"
-msgstr[0] "host  %{count} sem um %{taxonomy_single} atribuído "
-msgstr[1] "hosts %{count}sem um  %{taxonomy_single} atribuído"
+msgstr[0] "%{count} servidor sem um %{taxonomy_single} atribuído "
+msgstr[1] "%{count}servidores sem  %{taxonomy_single} atribuídos"
 
 msgid "%{cpus} CPUs and %{memory} MB memory"
 msgstr "%{cpus} CPUs e %{memory} MB memória"
@@ -152,7 +152,7 @@ msgstr ""
 "%{plugin_version}"
 
 msgid "%{id} plugin requires the %{plugin_name} plugin, not found"
-msgstr "%{id} plugin requer o plugin %{plugin_name}, não foi encontrado"
+msgstr "%{id} plugin requer o %{plugin_name}, não foi encontrado"
 
 msgid ""
 "%{image} needs user data, but %{os_link} is not associated to any "
@@ -295,10 +295,10 @@ msgid "<b>Foreman</b> Puppet error report"
 msgstr "<b>Foreman</b> Relatório de Erro do Puppet"
 
 msgid "<b>Foreman</b> Puppet summary"
-msgstr ""
+msgstr "<b>Foreman</b> Sumário Puppet"
 
 msgid "<b>Foreman</b> audit summary"
-msgstr ""
+msgstr "<b>Foreman</b> Sumário de auditoria"
 
 msgid "<b>Source:</b> %{type} %{name}"
 msgstr "<b>Fonte:</b> %{type} %{name}"
@@ -362,7 +362,7 @@ msgstr ""
 "Um script para calcular dinamicamente os tamanhos desejados. POR EXEMPLO"
 
 msgid "A user group already exists with this name"
-msgstr "ja existe um grupo de usuários com este nome"
+msgstr "Já existe um grupo de usuários com este nome"
 
 msgid "ACK"
 msgstr "ACK"
@@ -386,7 +386,7 @@ msgid "Account"
 msgstr "Conta"
 
 msgid "Acquire IP address for %s"
-msgstr "Opter endereço IP para %s"
+msgstr "Obter endereço IP para %s"
 
 msgid "Action"
 msgstr "Ação"
@@ -410,22 +410,22 @@ msgid "Add Matcher"
 msgstr ""
 
 msgid "Add Parameter"
-msgstr "Adicionar parâmetro"
+msgstr "Adicionar Parâmetro"
 
 msgid "Add Trend Counter"
 msgstr "Adicionar contador de tendência"
 
 msgid "Add Variable"
-msgstr "Adicionar variável"
+msgstr "Adicionar Variável"
 
 msgid "Add Volume"
-msgstr "Adicionar volume"
+msgstr "Adicionar Volume"
 
 msgid "Add a Puppet class to host"
 msgstr "Adicionar uma classe Puppet para o host"
 
 msgid "Add a Puppet class to host group"
-msgstr "Adicionar uma classe Puppet para o grupo"
+msgstr "Adicionar uma classe Puppet para o grupo de hosts"
 
 msgid "Add a template combination"
 msgstr "Adicionar uma combinação de modelo"
@@ -440,7 +440,7 @@ msgid "Add filter"
 msgstr "Adicionar filtro"
 
 msgid "Add to dashboard"
-msgstr ""
+msgstr "Adicionar ao painel de visualização"
 
 msgid "Add widgets"
 msgstr ""
@@ -452,13 +452,13 @@ msgid "Adding would cause a cycle!"
 msgstr "Adicionando poderia causar um novo ciclo!"
 
 msgid "Additional Information"
-msgstr "Adicionar informação"
+msgstr "Informação Adicional"
 
 msgid "Additional compute resource specific attributes for the interface."
 msgstr ""
 
 msgid "Additional compute resource specific attributes."
-msgstr ""
+msgstr "Atributos específicos de um recurso computacional adicional"
 
 msgid "Additional information about this host"
 msgstr "Informação adicional sobre este host"
@@ -470,13 +470,13 @@ msgid "Administer"
 msgstr "Administrar"
 
 msgid "Administrator email address"
-msgstr ""
+msgstr "Endereço de email do administrador"
 
 msgid "Alert"
 msgstr "Alerta"
 
 msgid "Alerts disabled"
-msgstr "Alertas desabilitado"
+msgstr "Alertas desabilitados"
 
 msgid "Alias or VLAN device"
 msgstr "Dispositivo de Alias ou VLAN"
@@ -497,7 +497,7 @@ msgid "All environments"
 msgstr "Todos os ambientes"
 
 msgid "All environments - (not filtered)"
-msgstr ""
+msgstr "Todos os ambientes - (sem filtros)"
 
 msgid "All host groups"
 msgstr "Todos os grupos de host"
