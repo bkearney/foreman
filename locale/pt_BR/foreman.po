@@ -23,6 +23,7 @@
 # gcintra <gcintra@redhat.com>, 2014. #zanata
 # gcintra <gcintra@redhat.com>, 2015. #zanata
 # ldelima <ldelima@redhat.com>, 2015. #zanata
+# Waldirio M. Pinheiro <waldirio@redhat.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: version 0.0.1\n"
@@ -561,11 +562,11 @@ msgid ""
 "manage DNS</li><li>the subnet does not manage reverse DNS</li><li>and the "
 "subnet does not manage DHCP reservations</li></ul>"
 msgstr ""
-"Um endereço de IP será auto-sugerido se você tiver um DHCP com Proxy "
+"Um endereço IP será auto-sugerido se você tiver um DHCP com Proxy "
 "Inteligente habilitado na sub-rede selecionada acima. <br/><br/> O endereço "
 "IP pode ser deixado em branco quando:<br/><ul><li> tokens de provisionamento "
 "estão habilitados </li> <li> o domínio não gerencia DNS </li><li> a sub-rede "
-"não consegue reverter DNS </li> <li> e a sub-rede não gerencia reservas de "
+"não consegue gerenciar o DNS reverso</li> <li> e a sub-rede não gerencia reservas de "
 "DHCP </li> </ul>"
 
 msgid "An explicit layout for the partitions of your hard drive(s). E.G."
@@ -590,7 +591,7 @@ msgid "Applied"
 msgstr "Aplicado"
 
 msgid "Applied|A"
-msgstr "Applied|A"
+msgstr "Aplicado|A"
 
 msgid "Architecture"
 msgstr "Arquitetura"
@@ -599,7 +600,7 @@ msgid "Architecture Distribution"
 msgstr "Distribuição de arquitetura"
 
 msgid "Architecture ID"
-msgstr ""
+msgstr "ID da Arquitetura"
 
 msgid "Architecture configuration"
 msgstr "Configuração de arquiteturas"
@@ -608,24 +609,26 @@ msgid "Architectures"
 msgstr "Arquiteturas"
 
 msgid "Architecture|Hostgroups count"
-msgstr "Contagem de Hostgroups"
+msgstr "Arquitetura|Contagem de Hostgroups"
 
 msgid "Architecture|Hosts count"
-msgstr "Contagem de Hosts"
+msgstr "Arquitetura|Contagem de Hosts"
 
 msgid "Architecture|Name"
-msgstr "Nome"
+msgstr "Arquitetura|Nome"
 
 msgid "Are you sure you want to %{act} %{vm}?"
 msgstr "Você tem certeza que deseja %{act} %{vm}?"
 
 msgid "Are you sure you want to delete host %s? This action is irreversible."
-msgstr ""
+msgstr "Você tem certeza que deseja remover o host %s? Esta ação é irreversível."
 
 msgid ""
 "Are you sure you want to delete host %s? This will delete the virtual "
 "machine and its disks, and is irreversible."
 msgstr ""
+"Você tem certeza que deseja remover o host %s? Esta operação irá remover a máquina "
+"virtual e seus discos, e esta operação é irreversível."
 
 msgid "Are you sure you want to delete this widget from your dashboard?"
 msgstr "Você tem certeza que deseja remover esse widget do seu painel?"
@@ -637,13 +640,13 @@ msgid "Are you sure?"
 msgstr "Você tem certeza?"
 
 msgid "Array of host IDs to associate with the partition table"
-msgstr ""
+msgstr "Matriz de servidores para associar com a tabela de partição"
 
 msgid "Array of host group IDs to associate with the partition table"
-msgstr ""
+msgstr "Matriz de grupo de servidores para associar com a tabela de partição"
 
 msgid "Array of operating system IDs to associate with the partition table"
-msgstr ""
+msgstr "Matriz de sistema operacional para associar com a tabela de partição"
 
 msgid "Array of operating system IDs to associate with the template"
 msgstr "Matriz de IDs de sistemas operacionais para associar com o modelo"
@@ -717,20 +720,20 @@ msgid ""
 "Attempting to construct an operating system image filename but %s cannot be "
 "built from an image"
 msgstr ""
-"A tentativa de construir uma imagem nome do arquivo do sistema operacional, "
+"Tentando construir um arquivo de imagem nome do arquivo do sistema operacional, "
 "mas %s não pode ser construído a partir de uma imagem"
 
 msgid "Attribute mappings"
-msgstr "Atributos mapeados"
+msgstr "Mapeamento de atributos"
 
 msgid "Attribute type"
-msgstr ""
+msgstr "Tipos de atributos"
 
 msgid "Audit Comment"
 msgstr "Comentário de auditoria"
 
 msgid "Audit summary"
-msgstr ""
+msgstr "Sumário de auditoria"
 
 msgid "Audited::Adapters::ActiveRecord::Audit|Action"
 msgstr "Audited::Adapters::ActiveRecord::Audit|Action"
@@ -829,10 +832,10 @@ msgid "Author"
 msgstr "Autor"
 
 msgid "Authorize login delegation"
-msgstr ""
+msgstr "Autorizar delegação de login"
 
 msgid "Authorize login delegation API"
-msgstr ""
+msgstr "Autorizar delegação de login API"
 
 msgid "Authorize login delegation auth source user autocreate"
 msgstr ""
@@ -854,7 +857,7 @@ msgid "Auto refresh off"
 msgstr ""
 
 msgid "Auto refresh on"
-msgstr ""
+msgstr "Auto atualização on"
 
 msgid "Autosign"
 msgstr "Auto-assinar"
@@ -884,7 +887,7 @@ msgid "Average swap usage"
 msgstr "Média do uso de swap"
 
 msgid "Avoid duplicate values when merging them (only array type)?"
-msgstr ""
+msgstr "Evitar valores duplicados quando mesclando (somente tipo matriz)?"
 
 msgid "BIOS"
 msgstr "BIOS"
@@ -958,7 +961,7 @@ msgid "Boot device"
 msgstr "Dispositivo de inicialização"
 
 msgid "Boot from volume"
-msgstr ""
+msgstr "Boot a partir de um volume"
 
 msgid "Boot host from specified device"
 msgstr "Inicie o nó através do dispositivo especificado"
@@ -976,7 +979,7 @@ msgid "Browser locale"
 msgstr "Navegar nas localidades"
 
 msgid "Browser timezone"
-msgstr ""
+msgstr "Navegar entre fuso horarios"
 
 msgid "Build"
 msgstr "Construir"
@@ -988,7 +991,7 @@ msgid "Build PXE Default"
 msgstr "Construir PXE padrão"
 
 msgid "Build a query for %{mailer}"
-msgstr ""
+msgstr "Construir uma consulta para %{mailer}"
 
 msgid "Build from OS image"
 msgstr "Construir a partir de uma imagem de SO"
