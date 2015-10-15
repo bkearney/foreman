@@ -1012,7 +1012,7 @@ msgid "CPUs"
 msgstr "CPUs"
 
 msgid "Can't add or remove `%s` from identifier"
-msgstr ""
+msgstr "Não pode adicionar ou remover `%s` a partir do identificador"
 
 msgid "Can't delete built-in role"
 msgstr "Não foi possível apagar papel embutido"
@@ -1067,7 +1067,7 @@ msgid "Canvas not supported."
 msgstr "Sem suporte para Canvas."
 
 msgid "Caps lock ON"
-msgstr ""
+msgstr "Caps lock Ligado"
 
 msgid "Certificate Name"
 msgstr "Nome do certificado"
@@ -1136,8 +1136,7 @@ msgstr "Classes"
 msgid ""
 "Click on the link of a compute resource to edit its default VM attributes."
 msgstr ""
-"Clique no link de um recurso completo para editar seus atributos de VM "
-"padrão."
+"Clique no link de um recurso computacional para editar os atributos padrões da VM."
 
 msgid "Click to add %s"
 msgstr "Clique para adicionar %s"
@@ -1163,7 +1162,8 @@ msgstr "Cliente de email"
 msgid ""
 "Client SSL certificates are used to identify Smart Proxies (:require_ssl "
 "should also be enabled)"
-msgstr ""
+msgstr "Certificados SSL de clientes são utilizados para identificar Smart Proxies (:require_ssl "
+"deveria também estar habilitado)"
 
 msgid "Clone"
 msgstr "Clonar"
@@ -1175,13 +1175,13 @@ msgid "Clone Host %s"
 msgstr "Clonar host %s"
 
 msgid "Clone a host group"
-msgstr "Escolha um grupo de host"
+msgstr "Duplique o grupo de host"
 
 msgid "Clone a provision template"
-msgstr ""
+msgstr "Duplique o modelo de provisionamento"
 
 msgid "Clone a template"
-msgstr ""
+msgstr "Duplique o modelo"
 
 msgid "Close"
 msgstr "Fechar"
@@ -1190,7 +1190,7 @@ msgid "Cluster"
 msgstr "Cluster"
 
 msgid "Cluster ID is required to list available networks"
-msgstr "ID do Cluster necessária para listar redes disponíveis."
+msgstr "ID do Cluster é necessária para listar redes disponíveis."
 
 msgid "Compute Resource"
 msgstr "Recurso de computação"
@@ -1229,22 +1229,22 @@ msgid "ComputeProfile|Name"
 msgstr "Nome"
 
 msgid "ComputeResource|Attrs"
-msgstr "Attributes"
+msgstr "Atributos"
 
 msgid "ComputeResource|Description"
-msgstr "Description"
+msgstr "Descrição"
 
 msgid "ComputeResource|Name"
-msgstr "Name"
+msgstr "Nome"
 
 msgid "ComputeResource|Password"
-msgstr "Password"
+msgstr "Senha"
 
 msgid "ComputeResource|Url"
 msgstr "URL"
 
 msgid "ComputeResource|User"
-msgstr "Username"
+msgstr "Usuário"
 
 msgid "ComputeResource|Uuid"
 msgstr "UUID"
@@ -1271,13 +1271,13 @@ msgid "ConfigGroup|Name"
 msgstr "Nome"
 
 msgid "Configuration"
-msgstr ""
+msgstr "Configuração"
 
 msgid "Configuration rebuild failed for: %s."
-msgstr ""
+msgstr "Reconstrução da configuração falhou por: %s."
 
 msgid "Configuration successfully rebuilt."
-msgstr ""
+msgstr "Consiguração refeita com sucesso."
 
 msgid "Configure"
 msgstr "Configurar"
@@ -1315,13 +1315,13 @@ msgid ""
 msgstr ""
 
 msgid "Continue?"
-msgstr ""
+msgstr "Continuar?"
 
 msgid "Cores"
 msgstr "Cores"
 
 msgid "Cores per socket"
-msgstr "Centros por soquete"
+msgstr "Cores por soquete"
 
 msgid ""
 "Could not find a Configuration Template with the name \"PXELinux global "
@@ -1331,10 +1331,10 @@ msgstr ""
 "global default\",  por favor crie um."
 
 msgid "Could not find virtual machine network interface matching %s"
-msgstr ""
+msgstr "Não foi possível localizar interface de rede de máquina virtual de acordo com %s"
 
 msgid "Create"
-msgstr ""
+msgstr "Criar"
 
 msgid "Create %s"
 msgstr "Criar %s"
@@ -1433,7 +1433,7 @@ msgid "Create a smart variable"
 msgstr "Criar uma variável inteligente"
 
 msgid "Create a subnet"
-msgstr "Criar uma subrete"
+msgstr "Criar uma subrede"
 
 msgid "Create a user"
 msgstr "Criar um usuário"
@@ -1470,13 +1470,13 @@ msgid "Create an override value for a specific smart variable"
 msgstr "Criar um valor de substituição para uma variavel smart especifica"
 
 msgid "Create new boot volume from image"
-msgstr ""
+msgstr "Criar um novo volume de boot a partir de imagem"
 
 msgid "Create new host when facts are uploaded"
-msgstr ""
+msgstr "Criar um novo host quando os fatos forem enviados"
 
 msgid "Create new host when report is uploaded"
-msgstr ""
+msgstr "Criar um novo host quando o relatório for enviado"
 
 msgid "Create realm entry for %s"
 msgstr "Criar uma entrada de território para %s"
@@ -1488,10 +1488,10 @@ msgid "Custom LDAP search filter, <i>optional</i>"
 msgstr " Filtro de busca doLDAP padronizado, <i>optional</i>"
 
 msgid "DB pending migration"
-msgstr ""
+msgstr "DB pendente migração"
 
 msgid "DB pending seed"
-msgstr ""
+msgstr "DB pendente seed"
 
 msgid "DHCP"
 msgstr "DHCP"
@@ -1535,7 +1535,7 @@ msgid ""
 msgstr ""
 
 msgid "DNS conflict timeout"
-msgstr ""
+msgstr "Conflito de DNS sem resposta"
 
 msgid "DNS name"
 msgstr "Nome DNS"
@@ -1564,13 +1564,13 @@ msgid "Default"
 msgstr "Padrão"
 
 msgid "Default Puppet environment"
-msgstr ""
+msgstr "Ambiente Puppet padrão"
 
 msgid "Default Puppet server hostname"
 msgstr "Nome do servidor Puppet padrão"
 
 msgid "Default behavior"
-msgstr ""
+msgstr "Comportamento padrão"
 
 msgid "Default boot mode for interfaces assigned to this subnet"
 msgstr ""
@@ -1587,35 +1587,35 @@ msgid "Default encrypted root password on provisioned hosts"
 msgstr "Senha root criptografada padrão em hosts provisionados."
 
 msgid "Default location"
-msgstr ""
+msgstr "Local padrão"
 
 msgid "Default on login"
 msgstr "Padrão no login"
 
 msgid "Default organization"
-msgstr ""
+msgstr "Organização padrão"
 
 msgid "Default templates are automatically added to new locations"
-msgstr ""
+msgstr "Modelos padrões são automaticamente adicionados a novos locais"
 
 msgid "Default templates are automatically added to new organizations"
-msgstr ""
+msgstr "Modelos padrões são automaticamente adicionados a novas organizações"
 
 msgid ""
 "Default templates are automatically added to new organizations and locations"
-msgstr ""
+msgstr "Modelos padrões são automaticamente adicionados em novas organizações e locais"
 
 msgid "Default value"
 msgstr "Valor padrão"
 
 msgid "Default value of variable"
-msgstr ""
+msgstr "Valor padrão da variável"
 
 msgid "Default variables lookup path"
 msgstr ""
 
 msgid "Defaults to image size if left blank"
-msgstr ""
+msgstr "Padrão para tamanho de imagem se ficar em branco"
 
 msgid "Delete"
 msgstr "Apagar"
@@ -1771,7 +1771,7 @@ msgstr ""
 
 msgid "Delete an override value for a specific smart variable"
 msgstr ""
-"Apagar uma sobreposição de valo para uma variável inteligente especifica"
+"Apagar uma sobreposição de valor para uma variável inteligente especifica"
 
 msgid "Delete autosign entry for %s"
 msgstr "Remover registro autosign para %s"
@@ -1798,13 +1798,13 @@ msgid "Description"
 msgstr "Descrição"
 
 msgid "Description of smart class"
-msgstr ""
+msgstr "Descrição da smart class"
 
 msgid "Description of the domain"
 msgstr "Descrição para o domínio"
 
 msgid "Description of variable"
-msgstr ""
+msgstr "Descrição da variável"
 
 msgid "Deselect All"
 msgstr "Desmarcar todos"
@@ -1844,10 +1844,10 @@ msgid "Device identifier, e.g. eth0 or eth1.1"
 msgstr "Identificador do dispositivo, ex.: eth0 ou eth1.1"
 
 msgid "Diff"
-msgstr ""
+msgstr "Diferença"
 
 msgid "Diff View"
-msgstr "Visualizar diff"
+msgstr "Visualizar diferença"
 
 msgid "Disable Notifications"
 msgstr "Desabilitar notificações"
@@ -1887,8 +1887,8 @@ msgstr "Exibir tipo"
 
 msgid "Displaying %{num_audits} of %{total_audits} audit"
 msgid_plural "Displaying %{num_audits} of %{total_audits} audits"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Exibindo %{num_audits} de %{total_audits} auditoria"
+msgstr[1] "Exibindo %{num_audits} de %{total_audits} auditorias"
 
 msgid "Displaying <b>%{count}</b> entry"
 msgid_plural "Displaying <b>all %{count}</b> entries"
@@ -1915,7 +1915,7 @@ msgid "Do not use your email as your password"
 msgstr "Não use seu e-mail como senha"
 
 msgid "Document root"
-msgstr ""
+msgstr "Documento raiz"
 
 msgid "Document root where puppetdoc files should be created"
 msgstr "Diretório raiz onde os arquivos puppetdoc serão criados"
@@ -1934,13 +1934,13 @@ msgid "Domain Configuration"
 msgstr "Configuração de dominio"
 
 msgid "Domain ID"
-msgstr ""
+msgstr "ID de Domínio"
 
 msgid "Domain IDs"
-msgstr " IDs de Domínio"
+msgstr "IDs de Domínio"
 
 msgid "Domains"
-msgstr "Dominios"
+msgstr "Domínios"
 
 msgid "Domains in which this subnet is part"
 msgstr "Domínios em que essa subrede faz parte"
@@ -1966,7 +1966,7 @@ msgid "EC2"
 msgstr "EC2"
 
 msgid "ENC environment"
-msgstr ""
+msgstr "Ambiente ENC"
 
 msgid ""
 "Each architecture can also be associated with more than one operating system "
